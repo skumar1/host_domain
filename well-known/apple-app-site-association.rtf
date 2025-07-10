@@ -1,0 +1,28 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+          {
+            "appID": "",
+            "paths": [ "*" ],
+            "appIDs": [ "=" ],
+            "components": [
+              {
+                "/": "",
+                "exclude": true,
+                "comment": "Matches any URL whose path starts with /videovisit/join/ and instructs the system not to open it as a universal link"
+              },
+              {
+                "/": "/web/*",
+                "exclude": true,
+                "comment": "web only"
+              },
+              {
+                "/": "/*",
+                "comment": "All"
+              }
+            ]
+          }
+        ]
+    }
+}
